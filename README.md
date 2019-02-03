@@ -1,8 +1,6 @@
 # Pet Adoption Center for Love
 Demo using the Bare bones essentials Html Css Vanilla Js.
 
-[Link to the Directions](public/assets/README.md)
-
 Save the lil Doggies!
 
 To Install
