@@ -1,1 +1,63 @@
-<!-- Put your final HTML here -->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Asana Pet Agency!</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="./styles/main.css" />
+
+</head>
+<body>
+
+    <header id="siteHeader" role="banner" class="siteHeader" >
+      <div class="siteHeader--row">
+        <div class="siteHeader__logo--wrapper">
+          <a href="#" class="siteHeader__logo">
+            <img src="/public/assets/images/asana-logo.svg" alt="">
+          </a>
+        </div>
+        <div class="siteHeader__nav--wrapper">
+          <div class="siteHeader__nav --row">
+            <nav class="horizontal-nav">
+                <a href="#about" class="horizontal-nav__item">About us</a>
+                <a href="#petGallery" class="horizontal-nav__item">Pet Gallery</a>
+                <button class="btn btn-outline horizontal-nav__item"></button>
+              </nav>
+          </div>
+        </div>
+      </div>
+
+        <div class="siteHeader__hero">
+
+             <!-- Image goes here  -->
+        </div>
+    </header>
+    <main id="main" role="main">
+
+      <section class="about">
+        <h1>Asana Pet Agency!</h1>
+        <p>Get Your Pet Today!</p>
+         <!-- Image goes here  -->
+    </section>
+        <section class="gallery" id="gallery">
+
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+    <div class="modal" id="modal">
+       <div class="modal__content">
+           <button class="modal__nav modal__nav--left prev">&lsaquo;</button>
+           <figure class="modal__imgHolder">
+               <span class="modal__close ">&times;</span>
+               <img class="modal__img" src="#" alt="">
+           </figure>
+           <button class="modal__nav modal__nav--right next">&rsaquo;</button>
+       </div>
+       <div class="modal__back"></div>
+    </div>
+<script src="main.js"></script>
+</body>
+</html>

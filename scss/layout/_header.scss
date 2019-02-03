@@ -1,1 +1,29 @@
+.siteHeader {
+  background: var(--blue-gradient);
+  color: var(--color-white);
+  width: 100%;
+  z-index: 90;
+  height: 60vh;
 
+  &--row {
+    display: flex;
+    flex-direction: row;
+    height: 56px;
+    padding-left: 16px;
+    padding-right: 16px;
+    align-items: center;
+    // height: 40px;
+    justify-content: space-between;
+  }
+
+  .siteHeader__logo {
+    padding-left: 0;
+    padding-right: 0;
+    &--wrapper {
+      width: 150px;
+      // display: block;
+      // flex: 0 1 auto;
+      position: relative;
+    }
+  }
+}
