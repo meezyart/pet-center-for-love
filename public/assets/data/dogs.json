@@ -1,0 +1,93 @@
+{
+  "dogs": [
+  {
+    "title": "Rover",
+      "image": "/assets/images/raw/1.jpeg",
+      "source": "https://unsplash.com/photos/ybHtKz5He9Y"
+    },
+
+    {
+      "title": "Bella",
+      "image": "/assets/images/raw/2.jpeg",
+      "source": "https://unsplash.com/photos/rY79kwEEyGo"
+    },
+
+    {
+      "title": "Pablo",
+      "image": "/assets/images/raw/3.jpeg",
+      "source": "https://unsplash.com/photos/ngqyo2AYYnE"
+    },
+
+    {
+      "title": "Alto",
+      "image": "/assets/images/raw/4.jpeg",
+      "source": "https://unsplash.com/photos/9A64wd1QaAU"
+    },
+
+    {
+      "title": "Gatsby",
+      "image": "/assets/images/raw/5.jpeg",
+      "source": "https://unsplash.com/photos/915UJQaxtrk"
+    },
+
+    {
+      "title": "Raider",
+      "image": "/assets/images/raw/6.jpeg",
+      "source": "https://unsplash.com/photos/mx0DEnfYxic"
+    },
+
+    {
+      "title": "Quincy",
+      "image": "/assets/images/raw/7.jpeg",
+      "source": "https://unsplash.com/photos/OsOQhAzcEKc"
+    },
+
+    {
+      "title": "Mako",
+      "image": "/assets/images/raw/8.jpeg",
+      "source": "https://unsplash.com/photos/6WneSv56YVI"
+    },
+
+    {
+      "title": "Jemina",
+      "image": "/assets/images/raw/9.jpeg",
+      "source": "https://unsplash.com/photos/CdVG9f96kyg"
+    },
+
+    {
+      "title": "Ticker",
+      "image": "/assets/images/raw/10.jpeg",
+      "source": "https://unsplash.com/photos/bVA2DI7c9e8"
+    },
+
+    {
+      "title": "Sniffles",
+      "image": "/assets/images/raw/11.jpeg",
+      "source": "https://unsplash.com/photos/GvhSUEN-Lm8"
+    },
+
+    {
+      "title": "Gizmo",
+      "image": "/assets/images/raw/12.jpeg",
+      "source": "https://unsplash.com/photos/t2XHKIdc4Kw"
+    },
+
+    {
+      "title": "Sterling",
+      "image": "/assets/images/raw/13.jpeg",
+      "source": "https://unsplash.com/photos/saRU3vzmgkY"
+    },
+
+    {
+      "title": "Bucky and lil Ruffy",
+      "image": "/assets/images/raw/14.jpeg",
+      "source": "https://unsplash.com/photos/1z-kI6gIEpg"
+    },
+
+    {
+      "title": "Roxy",
+      "image": "/assets/images/raw/15.jpeg",
+      "source": "https://unsplash.com/photos/zHZ2nTnBnAQ"
+    }
+  ]
+}
