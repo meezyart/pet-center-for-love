@@ -1,0 +1,57 @@
+.siteHeader {
+  background: var(--blue-gradient);
+  color: var(--color-white);
+  width: 100%;
+  z-index: 90;
+  padding-bottom: 2rem;
+
+  &--row {
+    display: flex;
+    flex-direction: row;
+    height: 56px;
+    padding-left: 16px;
+    padding-right: 16px;
+    align-items: center;
+    // height: 40px;
+    justify-content: space-between;
+  }
+
+  &__hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 4rem;
+    &--img {
+      width: 975px;
+    }
+  }
+
+  @include respond(tab-port) {
+    &__hero {
+      &--img {
+        width: 80vw;
+      }
+    }
+  }
+
+  &__logo {
+    padding-left: 0;
+    padding-right: 0;
+    &--wrapper {
+      width: 150px;
+
+      position: relative;
+    }
+  }
+
+  .horizontal-nav {
+    display: flex;
+    &__item {
+      padding-right: 20px;
+      min-height:40px;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+    }
+  }
+}

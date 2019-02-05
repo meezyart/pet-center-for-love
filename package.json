@@ -1,0 +1,24 @@
+{
+  "name": "Pet-center-for-love",
+  "version": "1.0.0",
+  "description": "a quick demo using js, html and css",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "devserver": "live-server --ignorePattern=./.git --open=public/index.html  --browser=firefox ",
+    "watch:sass": "node-sass -w --output-style expanded -r ./scss --output ./public/styles/",
+    "build:sass": "node-sass  --output-style expanded -r ./scss --output ./public/styles/",
+    "compress:css": "node-sass --output-style compressed ./public/styles/main.prefix.css ./public/styles/main.css",
+    "prefix:css": "postcss --use autoprefixer -b 'last 10 versions' ./public/styles/main.css -o ./public/styles/main.prefix.css",
+    "build": "npm-run-all build:sass prefix:css compress:css devserver",
+    "start": "npm-run-all --parallel  build:sass  watch:sass devserver "
+  },
+  "author": "***",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.5.3",
+    "npm-run-all": "^4.1.2",
+    "autoprefixer": "^8.2.0",
+    "postcss-cli": "^5.0.0"
+  }
+}

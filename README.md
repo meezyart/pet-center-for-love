@@ -11,6 +11,20 @@ Install the server globally:
 
 (Remember to omit sudo if you’re on Windows)
 
+Important Note:
+
+The local server is needed to see the Gallery.
+if your local server address differs from the one listed in `main.js`
+
+```
+
+
+```
+
+You will need to update it to see it in its full renderness!
+
+
+
 **Once it’s installed, navigate to the root of the project and run:**
 
 ```yarn```

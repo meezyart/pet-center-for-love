@@ -1,0 +1,49 @@
+.btn {
+  border: none;
+  outline: 0;
+  color: #333;
+  font-weight: 700;
+  font-size: .8rem;
+  transition: all .2s ease-in-out;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 1.5rem;
+  padding: .5rem 1.5rem;
+  box-shadow: 0 5px 10px rgba(var(--color-black), .3);
+  cursor: pointer;
+  text-align: center;
+  position: relative;
+
+  &:hover {
+    background: rgb(243, 199, 104);
+    color: #fefefe;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .3)
+  }
+  &:active {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .3);
+    outline: 0;
+  }
+  &:focus {
+    outline: 0;
+  }
+
+
+  &--outline{
+   
+    border: 3px solid #ffffff !important;
+    background: none;
+    box-shadow: none !important;
+    color: #ffffff;
+  }
+}
+
+button {
+  outline: 0;
+  border: 0;
+  &:active,
+  &:focus {
+    outline: 0;
+    border: 0;
+  }
+}
