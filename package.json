@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "devserver": "live-server --ignorePattern=./.git --open=public/index.html --port=8080 --host=127.0.0.1 --browser=firefox ",
+    "devserver": "live-server --ignorePattern=./.git --open=public/index.html  --browser=firefox ",
     "watch:sass": "node-sass -w --output-style expanded -r ./scss --output ./public/styles/",
     "build:sass": "node-sass  --output-style expanded -r ./scss --output ./public/styles/",
     "compress:css": "node-sass --output-style compressed ./public/styles/main.prefix.css ./public/styles/main.css",
