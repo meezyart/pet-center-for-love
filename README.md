@@ -1,15 +1,14 @@
-
-##Asana Pet Adoption Center for Love
+# Asana Pet Adoption Center for Love
 
 Demo using the Bare bones essentials Html Css, Css Grid, Flexbox, Vanilla Js.
 
-Design Focused
+### Design Focused
 
 [Link to the Directions](public/assets/README.md)
 
 Save the lil Doggies!
 
-To Install
+## To Install
 
 Install the server globally:
 
