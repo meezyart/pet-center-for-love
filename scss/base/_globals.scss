@@ -3,11 +3,12 @@
   --font-sans: "Helvetica Neue", Helvetica, Arial, sans-serif;
   --font-serif: Georgia, serif;
   --color-secondary: #333;
-  --color-link: #635ac7;
+  --color-link: rgb(243, 199, 104);
   --color-black: #000;
+  --color-grey:#A4A4A5;;
   --color-white: #ffffff;
   --blue-gradient: linear-gradient(-180deg, #15A0FA 0%, #FFFFFF 98%);
-  --blue-gradient-reverse: linear-gradient(180deg, #15A0FA 0%, #FFFFFF 98%);
+  --blue-gradient-reverse: linear-gradient(360deg, #15A0FA 0%, #FFFFFF 98%);
   --red-gradient: linear-gradient(135deg, #E2001A 0%, #670D0E 100%);
 
   font-family: var(--font-sans);
@@ -45,6 +46,9 @@ a {
   outline: 0;
   border: none;
   color: inherit;
+  &:hover{
+    color: var(--color-link);
+  }
 }
 
 /* Snippets */
@@ -60,12 +64,6 @@ a {
   margin-left: auto;
   margin-right: auto;
   max-width: 460px;
-}
-
-.site-footer {
-  color: var(--color);
-  font-family: var(--font-serif);
-  text-align: center;
 }
 
 

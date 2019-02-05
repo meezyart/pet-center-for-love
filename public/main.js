@@ -92,7 +92,7 @@
               </div>
               <div class="${element}__side ${element}__side--back ">
                 <p> ${galleryObj.title || title}</p>
-                <button class="btn btn-md">enlarge	&#128269;</button>
+                <button class="btn btn-md">Enlarge&nbsp;&nbsp;&nbsp;	&#128269;</button>
               </div>
             </figure>`;
   }

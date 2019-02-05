@@ -1,63 +1,97 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Asana Pet Agency!</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="./styles/main.css" />
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Asana Pet Agency!</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" media="screen" href="./styles/main.css" />
 
 </head>
+
 <body>
 
-    <header id="siteHeader" role="banner" class="siteHeader" >
-      <div class="siteHeader--row">
-        <div class="siteHeader__logo--wrapper">
-          <a href="#" class="siteHeader__logo">
-            <img src="/public/assets/images/asana-logo.svg" alt="">
-          </a>
-        </div>
-        <div class="siteHeader__nav--wrapper">
-          <div class="siteHeader__nav --row">
-            <nav class="horizontal-nav">
-                <a href="#about" class="horizontal-nav__item">About us</a>
-                <a href="#petGallery" class="horizontal-nav__item">Pet Gallery</a>
-                <button class="btn btn-outline horizontal-nav__item"></button>
-              </nav>
-          </div>
+  <header id="siteHeader" role="banner" class="siteHeader">
+    <div class="siteHeader--row">
+      <div class="siteHeader__logo--wrapper">
+        <a href="#" class="siteHeader__logo">
+          <img src="/public/assets/images/asana-logo.svg" alt="asana logo">
+        </a>
+      </div>
+      <div class="siteHeader__nav--wrapper">
+        <div class="siteHeader__nav --row">
+          <nav class="horizontal-nav">
+            <a href="#about" class="horizontal-nav__item">About us</a>
+            <a href="#petGallery" class="horizontal-nav__item">Pet Gallery</a>
+            <button class="btn btn--outline horizontal-nav__item">Adopt Today</button>
+          </nav>
         </div>
       </div>
-
-        <div class="siteHeader__hero">
-
-             <!-- Image goes here  -->
-        </div>
-    </header>
-    <main id="main" role="main">
-
-      <section class="about">
-        <h1>Asana Pet Agency!</h1>
-        <p>Get Your Pet Today!</p>
-         <!-- Image goes here  -->
-    </section>
-        <section class="gallery" id="gallery">
-
-        </section>
-    </main>
-    <footer>
-
-    </footer>
-    <div class="modal" id="modal">
-       <div class="modal__content">
-           <button class="modal__nav modal__nav--left prev">&lsaquo;</button>
-           <figure class="modal__imgHolder">
-               <span class="modal__close ">&times;</span>
-               <img class="modal__img" src="#" alt="">
-           </figure>
-           <button class="modal__nav modal__nav--right next">&rsaquo;</button>
-       </div>
-       <div class="modal__back"></div>
     </div>
-<script src="main.js"></script>
+
+    <div class="siteHeader__hero">
+      <img src="/public/assets/images/main-logo.png" alt="Pet Adoption Center For Love" class="siteHeader__hero--img">
+    </div>
+  </header>
+  <main id="main" role="main">
+    <section class="about">
+      <img src="/public/assets/images/center-badge.svg" class="about__badge" alt="Center For Love Badge">
+      <div class="about__content">
+        <h1>Asana Pet Agency!</h1>
+        <p>We are a group of project mangers out to change the world and we also have a passion for finding pets a new
+          home.
+          From Dachshund to Pomeranian we are focusing on our loveable puppys and dogs. Even cats, but they will come later.</p>
+
+        <p>If you looking for a Dog for adoption, we may have you favorite breed for adoption. From German sherpards, to pitbulls,
+          bulldogs, poodles. We got you covered!</p>
+          <h1>Our Dog Gallery</h1>
+        <p>
+          These are our wonderful pups are waiting for your love.
+          <strong>Rollover the image</strong> to see you can see why we love these lil guys so much. We know you will too!!
+
+        </p>
+
+      </div>
+      <div class="about__paws"></div>
+    </section>
+    <section class="gallery" id="gallery">
+
+    </section>
+  </main>
+  <footer class="site-footer">
+
+    <blockquote class="site-footer__quote">
+      <p>A dog will teach you unconditional love. If you can have that in your life, things won't be too bad.</p>
+      <cite>&mdash;Robert Wagner</cite>
+    </blockquote>
+    <div class="site-footer__grass">
+      <div class="site-footer__doggy"></div>
+      <div class="site-footer__bottom">
+      <a href="#" >
+          <img src="/public/assets/images/asana-logo.svg" alt="asana logo"  class="site-footer__logo">
+        </a>
+        <br>
+    <small class="site-footer__privacy" >
+      Asana Pet Adoption - Center for Love™ <br>
+          ©Copyright 2019
+    </small>
+  </div>
+  </div>
+  </footer>
+
+  <div class="modal" id="modal">
+    <div class="modal__content">
+      <button class="modal__nav modal__nav--left prev">&lsaquo;</button>
+      <figure class="modal__imgHolder">
+        <span class="modal__close ">&times;</span>
+        <img class="modal__img" src="#" alt="">
+      </figure>
+      <button class="modal__nav modal__nav--right next">&rsaquo;</button>
+    </div>
+    <div class="modal__back"></div>
+  </div>
+  <script src="main.js"></script>
 </body>
+
 </html>

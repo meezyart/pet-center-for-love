@@ -1,0 +1,73 @@
+.site-footer {
+  background: var(--blue-gradient-reverse);
+  color: var(--color-white);
+  font-family: var(--font-sans);
+  text-align: center;
+  height: auto;
+  padding-top: 3rem;
+  position: relative;
+  width: 100%;
+  bottom: 0;
+  &__quote {
+    padding: .5rem  1rem 4rem ;
+    color: var(--color-grey);
+    width: 100%;
+    max-width: 36rem;
+    margin: 0 auto;
+  }
+  &__doggy {
+    background: url("/public/assets/images/small_pup.png") no-repeat;
+    background-size: 100%;
+    width: 250px;
+    height: 260px;
+    position: absolute;
+    left: 15vw;
+  }
+
+  &__grass {
+    height: 22rem;
+    background: url("/public/assets/images/grass@2x.png") no-repeat;
+    background-size: 100vw;
+  }
+  &__bottom {
+    padding-top: 4rem;
+    position: absolute;
+    bottom: 31px;
+    width: 100%;
+
+  }
+  &__logo {
+    width: 111px;
+    clear: both;
+  }
+
+  &__privacy{
+
+  }
+
+  @include respond(tab-port) {
+    &__doggy {
+      width: 128px;
+      height: 115px;
+      left: 8vw;
+      top: 20vh;
+    }
+
+    &__grass {
+      height: 16rem;
+    }
+  }
+
+  @include respond(phone) {
+    &__doggy {
+      width: 80px;
+      height: 115px;
+      left: 4vw;
+      top: 15vh;
+    }
+
+    &__grass {
+      height: 10rem;
+    }
+  }
+}
