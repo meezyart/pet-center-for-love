@@ -4,12 +4,13 @@
   display: grid;
   grid-template-columns: repeat(9, minmax(1fr, 9vw));
   grid-gap: 0.9rem;
-  max-height: 100rem;
+  // max-height: 100rem;
   grid-auto-rows: 5vw;
   text-align: center;
   backface-visibility: hidden;
-  padding: 1rem;
-  padding: 0 16px;
+  padding: .2rem;
+  padding: 0 1rem;
+  position: relative;
 
   @include respond(phone) {
     display: flex;
@@ -17,7 +18,7 @@
 
     &__item {
       min-height: 20vh;
-      margin-bottom: 1rem;
+      margin-bottom: .6rem;
       flex: 1;
       height: 5rem;
     }
@@ -29,7 +30,7 @@
 
     &__item {
       min-height: 50vw;
-      margin-bottom: 1rem;
+      margin-bottom: .6rem;
       flex: 1;
       height: 5rem;
     }
@@ -44,7 +45,7 @@
     top: 0;
     left: 0;
     transition: all 0.5s ease;
-    border-radius: .3rem;
+    border-radius: .5rem;
     overflow: hidden;
 
     &--front {
