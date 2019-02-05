@@ -1,5 +1,7 @@
-# Pet Adoption Center for Love
-Demo using the Bare bones essentials Html Css Vanilla Js.
+# Asaana Pet Adoption Center for Love
+Demo using the Bare bones essentials Html Css, Css Grid, Flexbox, Vanilla Js.
+
+[Link to the Directions](public/assets/README.md)
 
 Save the lil Doggies!
 
@@ -17,7 +19,9 @@ The local server is needed to see the Gallery.
 if your local server address differs from the one listed in `main.js`
 
 ```
-
+  // Enter your localhost here
+  const baseURL = "http://127.0.0.1:8080/public/",
+        dogURL = "assets/data/dogs.json"
 
 ```
 
